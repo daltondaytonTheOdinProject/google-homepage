@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Google</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .nav li {
+        list-style-type: none;
+        margin: 7px 27px 0 -10px;
+        font-size: 0.8em;
+      }
+      .nav-left li {
+        float: left;
+        opacity: 70%;
+      }
+      .nav-right li {
+        float: right;
+        line-height: 25px;
+      }
+      #main {
+        clear: both;
+        text-align: center;
+        margin-top: 165px;
+      }
+      th {
+        height: 3px;
+        width: 3px;
+        background-color: black;
+      }
+      .circle {
+        height: 25px;
+        width: 25px;
+        border-radius: 20px;
+        border: 1px solid black;
+        background-color: black;
+        margin-top: -3px;
+      }
+      .search {
+        height: 45px;
+        width: 580px;
+        border: 1px solid #ddd;
+        border-radius: 25px;
+        margin: 20px auto;
+      }
+      .search:hover {
+        box-shadow: 0px 0px 5px #ddd;
+      }
+      button {
+        height: 35px;
+        width: 130px;
+        margin: 10px 15px 0 0;
+        border: none;
+        background-color: #f2f2f2;
+        border-radius: 5px;
+        color: #5f6368;
+        font-size: 0.85em;
+      }
+      svg {
+        height: 20px;
+        margin: 13px 0 0 13px;
+        float: left;
+        opacity: 40%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul class="nav nav-left">
+        <li>About</li>
+        <li>Store</li>
+      </ul>
+      <ul class="nav nav-right">
+        <li>
+          <div class="circle"></div>
+        </li>
+        <li>
+          <table>
+            <tr>
+              <th></th>
+              <th></th>
+              <th></th>
+            </tr>
+            <tr>
+              <th></th>
+              <th></th>
+              <th></th>
+            </tr>
+            <tr>
+              <th></th>
+              <th></th>
+              <th></th>
+            </tr>
+          </table>
+        </li>
+        <li>Images</li>
+        <li>Gmail</li>
+      </ul>
+    </nav>
+    <br />
+    <div id="main">
+      <img src="assets/glogo.png" alt="Google Logo" />
+      <br />
+      <div class="search">
+        <svg viewBox="0 0 24 24">
+          <path
+            d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+          ></path>
+        </svg>
+      </div>
+      <button>Google Search</button>
+      <button>I'm Feeling Lucky</button>
+    </div>
+  </body>
+</html>
